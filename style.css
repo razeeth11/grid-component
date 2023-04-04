@@ -1,0 +1,79 @@
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: 50px auto;
+}
+
+.main-content{
+  padding: 30px;
+}
+
+.main-content h1{
+  color:hsl(179, 62%, 43%) ;
+}
+
+.main-content h2{
+  color:hsl(71, 73%, 54%);
+}
+
+.main-content p{
+  color:hsl(218, 22%, 67%) ;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.left-card{
+  display: flex;
+  flex-direction: column;
+   background-color: hsl(179, 62%, 43%);
+   padding: 30px;
+}
+
+.dollar{
+  font-size: 24px;  
+}
+
+.right-card{
+  background-color: hsl(179, 89%, 41%);
+   padding: 30px;
+}
+
+.right-card li{
+   margin-top: 5px;
+}
+
+li{
+  list-style-type: none;
+  color: rgb(240, 240, 240);
+}
+
+ul{
+  padding: 0%;
+}
+
+button{
+  width: 100%;
+  padding: 15px;
+  box-shadow: 1px 1px 10px  hsl(179, 72%, 31%);
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
